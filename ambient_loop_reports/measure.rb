@@ -190,8 +190,8 @@ class AmbientLoopReports < OpenStudio::Measure::ReportingMeasure
         end
       end
 
-      runner.registerInfo("Index #{index}, Value 1 #{row[var_1]}, Value 2 #{row[var_2]}, Class #{row[var_1]}")
-      runner.registerInfo("rows[index] class #{rows[index]}")
+      # runner.registerInfo("Index #{index}, Value 1 #{row[var_1]}, Value 2 #{row[var_2]}, Class #{row[var_1]}")
+      # runner.registerInfo("rows[index] class #{rows[index]}")
       rows[index] << row[var_1].to_f + row[var_2].to_f
     end
 
