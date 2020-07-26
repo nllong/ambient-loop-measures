@@ -2,8 +2,8 @@
   <schema_version>3.0</schema_version>
   <name>change_building_location</name>
   <uid>d4db4971-f5ba-11e3-a3ac-0800200c9a66</uid>
-  <version_id>77f49bd9-cb07-4d87-8f6f-6ab1add7c407</version_id>
-  <version_modified>20180806T195328Z</version_modified>
+  <version_id>3e7ff831-162f-4d73-a530-d040e6318e75</version_id>
+  <version_modified>20190826T205142Z</version_modified>
   <xml_checksum>057E8D9D</xml_checksum>
   <class_name>ChangeBuildingLocation</class_name>
   <display_name>ChangeBuildingLocation</display_name>
@@ -229,12 +229,6 @@
       <checksum>FA04CAFA</checksum>
     </file>
     <file>
-      <filename>epw.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>75D1E203</checksum>
-    </file>
-    <file>
       <filename>os_lib_helper_methods.rb</filename>
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
@@ -274,6 +268,12 @@
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
       <checksum>299383EA</checksum>
+    </file>
+    <file>
+      <filename>epw.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>7D1F3352</checksum>
     </file>
   </files>
 </measure>
