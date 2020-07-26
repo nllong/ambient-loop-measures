@@ -2,8 +2,8 @@
   <schema_version>3.0</schema_version>
   <name>schedule_profile_value_multiplier</name>
   <uid>9d89a63c-a7dd-4a1f-a444-7c381a78654f</uid>
-  <version_id>8743db93-25b1-4da8-a336-c9ec061857a5</version_id>
-  <version_modified>20190827T235511Z</version_modified>
+  <version_id>d68a4e85-611a-453b-8e0b-dee30836c23f</version_id>
+  <version_modified>20200414T215509Z</version_modified>
   <xml_checksum>03F02484</xml_checksum>
   <class_name>ScheduleProfileValueMultiplier</class_name>
   <display_name>Schedule Profile Value Multiplier</display_name>
@@ -19,7 +19,7 @@
       <default_value>*All Ruleset Schedules*</default_value>
       <choices>
         <choice>
-          <value>{0e224196-4fb4-4f99-a9c0-993d1d9eba6b}</value>
+          <value>{066e5e30-4003-4350-8d4d-20997b7ce4d3}</value>
           <display_name>*All Ruleset Schedules*</display_name>
         </choice>
       </choices>

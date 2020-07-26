@@ -6,11 +6,11 @@ require "#{File.dirname(__FILE__)}/resources/os_lib_schedules"
 require "#{File.dirname(__FILE__)}/resources/os_lib_helper_methods"
 
 # start the measure
-class OpenStudioResults < OpenStudio::Ruleset::ReportingUserScript
+class OpenStudioResultsAmbientLoops < OpenStudio::Ruleset::ReportingUserScript
   # define the name that a user will see, this method may be deprecated as
   # the display name in PAT comes from the name field in measure.xml
   def name
-    'OpenStudio Results'
+    'OpenStudio Results Ambient Loops'
   end
 
   # human readable description
@@ -308,4 +308,4 @@ class OpenStudioResults < OpenStudio::Ruleset::ReportingUserScript
 end # end the measure
 
 # this allows the measure to be use by the application
-OpenStudioResults.new.registerWithApplication
+OpenStudioResultsAmbientLoops.new.registerWithApplication

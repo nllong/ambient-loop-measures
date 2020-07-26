@@ -1,12 +1,12 @@
 <measure>
   <schema_version>3.0</schema_version>
-  <name>openstudio_results</name>
+  <name>openstudio_results_ambient_loops</name>
   <uid>a25386cd-60e4-46bc-8b11-c755f379d916</uid>
   <version_id>05ad855b-6ae3-431e-991b-80e5133a56f2</version_id>
   <version_modified>20170622T203955Z</version_modified>
   <xml_checksum>557BF06F</xml_checksum>
-  <class_name>OpenStudioResults</class_name>
-  <display_name>OpenStudio Results</display_name>
+  <class_name>OpenStudioResultsAmbientLoops</class_name>
+  <display_name>OpenStudio Results Ambient Loops</display_name>
   <description>This measure creates high level tables and charts pulling both from model inputs and EnergyPlus results. It has building level information as well as detail on space types, thermal zones, HVAC systems, envelope characteristics, and economics. Click the heading above a chart to view a table of the chart data.</description>
   <modeler_description>For the most part consumption data comes from the tabular EnergyPlus results, however there are a few requests added for time series results. Space type and loop details come from the OpenStudio model. The code for this is modular, making it easy to use as a template for your own custom reports. The structure of the report uses bootstrap, and the graphs use dimple js.</modeler_description>
   <arguments>
